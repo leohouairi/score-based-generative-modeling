@@ -43,7 +43,7 @@ class HeroicScoreNet(nn.Module):
     self.embed = nn.Sequential(GaussianFourierProjection(embed_dim=embed_dim),
          nn.Linear(embed_dim, embed_dim))
     # Encoding layers where the resolution decreases
-    self.conv1 = nn.Conv2d(1, channels[0], 3, stride=1, bias=False)
+    self.conv1 = nn.Conv2d(3, channels[0], 3, stride=1, bias=False)
     self.dense1 = Dense(embed_dim, channels[0])
     self.gnorm1 = nn.GroupNorm(4, num_channels=channels[0])
     self.conv2 = nn.Conv2d(channels[0], channels[1], 3, stride=2, bias=False)

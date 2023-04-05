@@ -16,7 +16,7 @@ class HeroicDataset(Dataset):
         self.transform = transforms.Compose([
             transforms.PILToTensor()
         ])
-        self.data['image_tensor']=self.data['image'].apply(lambda x : self.transform(Image.open(BytesIO(x['bytes']))))
+        self.data['image_tensor']=self.data['image'].apply(lambda x : self.transform(Image.open(BytesIO(x['bytes']))).type(torch.FloatTensor))
         self.data=self.data[['text','image_tensor']]
 
     def __len__(self):
