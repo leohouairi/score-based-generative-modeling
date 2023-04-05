@@ -4,7 +4,7 @@ from torch.utils.data import Dataset
 import torchvision.transforms as transforms
 
 class HeroicDataset(Dataset):
-    def __init__(self, parquet_file,dataset_type):
+    def __init__(self, parquet_file):
         """
         Args:
             parquet_file (string): Path to the parquet file with annotations.
