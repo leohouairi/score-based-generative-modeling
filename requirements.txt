@@ -1,7 +1,7 @@
 pandas
 pyarrow
 torch
-#torchvision ?
+torchvision
 #git+https://github.com/yang-song/score_sde_pytorch
 
 # local package
