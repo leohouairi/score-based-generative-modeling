@@ -27,4 +27,4 @@ class HeroicDataset(Dataset):
             idx = idx.tolist()
         image=self.data.iloc[idx,1]
         caption = self.data.iloc[idx, 0]
-        return [caption], [image]
+        return [caption], image
