@@ -2,6 +2,8 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset
 import torchvision.transforms as transforms
+from PIL import Image
+from io import BytesIO
 
 class HeroicDataset(Dataset):
     def __init__(self, parquet_file):
