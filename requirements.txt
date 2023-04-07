@@ -2,6 +2,7 @@ pandas
 pyarrow
 torch
 torchvision
+matplotlib
 #git+https://github.com/yang-song/score_sde_pytorch
 
 # local package
