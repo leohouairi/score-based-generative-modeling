@@ -1,7 +1,16 @@
-score-based-generative-modeling
+Score based geenrative modelling
 ==============================
 
-Generative model a la Yang Song
+Project realized for the "Deep leraning" course (ENSAE last year, DSSA track). 
+
+We aim at applying the method proposed in the paper "Score-based generative modeling through stochastic differential equation" on another data set so as to generate images. 
+
+Useful links: 
+- The paper: https://arxiv.org/abs/2011.13456
+- A blogpost explaining the paper: https://yang-song.net/blog/2021/score/
+- A tutorial implementing the paper (python, torch): https://colab.research.google.com/drive/120kYYBOVa1i0TD85RjlEkFjaWDxSFUx3?usp=sharing
+
+==============================
 
 Project Organization
 ------------
