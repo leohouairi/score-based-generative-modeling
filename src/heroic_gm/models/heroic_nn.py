@@ -66,7 +66,7 @@ class HeroicScoreNet(nn.Module):
     self.tconv2 = nn.ConvTranspose2d(channels[1] + channels[1], channels[0], 3, stride=2, bias=False, output_padding=1)    
     self.dense7 = Dense(embed_dim, channels[0])
     self.tgnorm2 = nn.GroupNorm(32, num_channels=channels[0])
-    self.tconv1 = nn.ConvTranspose2d(channels[0] + channels[0], 1, 3, stride=1)
+    self.tconv1 = nn.ConvTranspose2d(channels[0] + channels[0], 3, 3, stride=1)
     
     # The swish activation function
     self.act = lambda x: x * torch.sigmoid(x)
