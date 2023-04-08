@@ -1,4 +1,4 @@
-Score based geenrative modelling
+Score based generative modelling
 ==============================
 
 Project realized for the "Deep leraning" course (ENSAE last year, DSSA track). 
@@ -9,8 +9,6 @@ Useful links:
 - The paper: https://arxiv.org/abs/2011.13456
 - A blogpost explaining the paper: https://yang-song.net/blog/2021/score/
 - A tutorial implementing the paper (python, torch): https://colab.research.google.com/drive/120kYYBOVa1i0TD85RjlEkFjaWDxSFUx3?usp=sharing
-
-==============================
 
 Project Organization
 ------------
