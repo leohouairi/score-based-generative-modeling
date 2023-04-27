@@ -4,6 +4,8 @@ torch
 torchvision
 matplotlib
 scipy
+codecarbon
+wandb
 #git+https://github.com/yang-song/score_sde_pytorch
 
 # local package
