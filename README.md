@@ -8,7 +8,7 @@ We aim at applying the method proposed in the paper "Score-based generative mode
 Useful links: 
 - The paper: https://arxiv.org/abs/2011.13456
 - A blogpost explaining the paper: https://yang-song.net/blog/2021/score/
-- Yang Song's tutorial implementing the paper (python, torch), on which our implementation is largely based : https://colab.research.google.com/drive/120kYYBOVa1i0TD85RjlEkFjaWDxSFUx3?usp=sharing
+- Yang Song's tutorial implementing the paper (python, torch), **on which our implementation is largely based** : https://colab.research.google.com/drive/120kYYBOVa1i0TD85RjlEkFjaWDxSFUx3?usp=sharing
 
 Project Organization
 ------------
