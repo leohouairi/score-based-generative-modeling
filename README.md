@@ -1,16 +1,31 @@
-Score based generative modelling
-==============================
+# Score based generative modelling
 
 Project realized for the "Deep leraning" course (ENSAE last year, DSSA track). 
 
 We aim at applying the method proposed in the paper "Score-based generative modeling through stochastic differential equation" on another data set so as to generate images. 
 
-Useful links: 
+
+## Notebooks
+
+You can run these notebooks on Colab :
+
+| Notebook-dataset | path | Colab Link |
+| ---- | ---- | ---- |
+| letter-emnist (**letter emnist matfile required**) | ./notebooks/letter-mnist/training_sampling_notebook_lettermnist.ipynb | [Colab Link](https://colab.research.google.com/github/leohouairi/score-based-generative-modeling/blob/main/notebooks/letter-mnist/training_sampling_notebook_lettermnist.ipynb)
+| icon (**icon matfile required**) | ./notebooks/icon/training_sampling_notebook_icon.ipynb | [Colab Link](https://colab.research.google.com/github/leohouairi/score-based-generative-modeling/blob/main/notebooks/icon/training_sampling_notebook_icon.ipynb)
+| notmnist | ./notebooks/notmnist/training_sampling_notebook_notmnist.ipynb  | [Colab Link](https://colab.research.google.com/github/leohouairi/score-based-generative-modeling/blob/main/notebooks/notmnist/training_sampling_notebook_notmnist.ipynb)
+| kmnist | ./notebooks/kmnist/training_sampling_notebook_kmnist.ipynb | [Colab Link](https://colab.research.google.com/github/leohouairi/score-based-generative-modeling/blob/main/notebooks/kmnist/training_sampling_notebook_kmnist.ipynb)
+| HASYv2 | ./notebooks/HASYv2/training_sampling_notebook_HASYv2.ipynb | [Colab Link](https://colab.research.google.com/github/leohouairi/score-based-generative-modeling/blob/main/notebooks/HASYv2/training_sampling_notebook_HASYv2.ipynb)
+
+
+
+
+## Useful links 
 - The paper: https://arxiv.org/abs/2011.13456
 - A blogpost explaining the paper: https://yang-song.net/blog/2021/score/
 - Yang Song's tutorial implementing the paper (python, torch), **on which our implementation is largely based** : https://colab.research.google.com/drive/120kYYBOVa1i0TD85RjlEkFjaWDxSFUx3?usp=sharing
 
-Project Organization
+## Project Organization
 ------------
 
     ├── LICENSE
